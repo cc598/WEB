@@ -1,0 +1,175 @@
+* {
+	font-size: 8pt;
+	font-family: Verdana;
+	margin: 0;
+}
+
+body {
+    background: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000)
+}
+
+h1 {
+    text-align: center;
+	font-size: 24pt;
+	font-family: Tahoma;
+    padding-top: 3em;
+}
+
+dl {
+    padding-top: 10px;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+dt {
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+dd {
+    padding-bottom: 1em;
+    padding-left: 5em;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 8pt;
+}
+
+.box {
+    font-size: 8pt;
+    font-weight: bold;
+    background: #E1D697;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    padding: 8px;
+    min-height: 30px;
+}
+
+.people {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.image {
+    float: left;
+    padding: 5px;
+}
+
+.banner {
+	width: 100%;
+}
+
+.banner2 {
+	width: 100%;
+	background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000)
+}
+
+.word {
+    font-style:italic;
+}
+
+#word1 {
+	position:relative;
+	width:100px;
+	height:100px;
+}
+
+#word2 {
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-indent:2;
+	left:0;
+	top:0;
+}
+
+#title1 {
+    font-size: 48pt;
+    font-weight:bold;
+    color: red;
+}
+
+#title2 {
+    font-size: 8pt;
+    color: white;
+}
+
+#icon {
+    position:absolute;
+    bottom:-260px;
+    right:0px;
+}
+
+
+
+
+
+
+
+
+
+#container{
+     width:800px;
+     margin:30px auto;
+     padding:0px;
+     border-width: 4px;
+     border-style: solid;
+     border-color: gray;
+}
+ 
+#header{
+    margin:0px;
+    padding:0px;
+}
+   
+     
+#content{
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+#main{
+    width:550px;
+    height:100%;
+    margin:0px;
+    text-align:left; 
+    overflow:hidden; 
+    float:left;
+} 
+
+#text1 {
+    margin-top:2%;
+    margin-left:2%;
+    width:47%;
+    height:100%;
+    float:left;
+}
+
+#text2 {
+    margin-top:2%;
+    margin-right:2%;
+    width:47%;
+    height:100%;
+    float:right;
+}
+
+#sidebar{
+    width:250px;
+    height:100%;
+    padding:0px;
+    margin:0;
+    text-align:left; 
+    overflow:hidden; 
+    float:right;
+    background-color: #A2B964;
+}
+
+#footer{
+    height:20px;
+    text-align:center; 
+    clear:both;
+    background-color: #A2B964;
+}
